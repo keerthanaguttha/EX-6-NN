@@ -29,7 +29,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score,confusion_matrix,classification_report
 import matplotlib.pyplot as plt
 
-data=pd.read_csv('https://raw.githubusercontent.com/ElavarasanMurugan/EX-6-NN/main/heart.csv')
+data=pd.read_csv('https://raw.githubusercontent.com/keerthanaguttha/EX-6-NN/main/heart.csv')
 X=data.iloc[:,:-1].values
 y=data.iloc[:,-1].values
 
